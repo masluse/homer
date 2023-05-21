@@ -46,6 +46,10 @@ links:
   - name: "Github"
     icon: "fab fa-github"
     url: "https://github.com/masluse"
+    target: "_blank"
+  - name: "Reddit"
+    icon: "fab fa-reddit"
+    url: "https://www.reddit.com/"
     target: "_blank" # optional html a tag target attribute
   # this will link to a second homer page that will load config from additional-page.yml and keep default config values as in config.yml file
   # see url field and assets/additional-page.yml.dist used in this example:
@@ -140,7 +144,7 @@ services:
         url: "https://ansible-semaphore.mregli.com/"
         target: "_blank"
   - name: "Manhwa"
-    icon: "fas fa-cloud"
+    icon: "fas fa-book"
     items:
       - name: "Asurascan"
         logo: "assets/tools/asurascan.png"
@@ -164,7 +168,7 @@ services:
         url: "https://harimanga.com/manga/the-demon-prince-goes-to-the-academy/"
         target: "_blank"
   - name: "Tools"
-    icon: "fas fa-cloud"
+    icon: "fa-sharp fa-solid fa-wand-magic-sparkles"
     items:
       - name: "Nextdns"
         logo: "assets/tools/nextdns.png"
